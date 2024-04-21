@@ -13,7 +13,7 @@ export default function Navbar() {
     return(
         <header className="p-10 h-24 z-50 absolute left-[1px] flex justify-around items-center">
 
-            <img src={hum} alt="" onClick={handleOpen} className="h-[8vh]"/>
+            <img src={hum} alt="Menu" onClick={handleOpen} className="h-[8vh] absolute left-5"/>
 
             {open &&
             <h1 className="text-5xl text-center text-orange-500 font-serif font-extrabold">Alfatec</h1>}
