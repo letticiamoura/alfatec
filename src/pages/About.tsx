@@ -50,10 +50,10 @@ export default function About() {
                     <span className="text-orange-400 text-3xl sm:text-5xl font-extrabold">colaboradores</span>
                 </h2>
 
-                <div className="flex justify-center overflow-x-scroll gap-5">
+                <div className="flex justify-center gap-5">
 
                     <div>
-                        <img src={diretora} alt="Diretora" className="h-[45vh] w-[150%] lg:h-[45vh] lg:w-[20vw] rounded-full object-cover"/>
+                        <img src={diretora} alt="Diretora" className="h-[45vh] w-[150%] lg:h-[45vh] lg:w-[20vw] rounded-full object-cover filter hover:brightness-75"/>
                         <div className="text-orange-400 text-center">  
                             <h2 className="font-bold">Isabele Ferreira</h2>
                             <p>Diretora</p>
@@ -61,7 +61,7 @@ export default function About() {
                     </div>
 
                     <div>
-                        <img src={brendha} alt="Dona" className="h-[45vh] w-[65vw] lg:h-[45vh] lg:w-[20vw] rounded-full object-cover"/>
+                        <img src={brendha} alt="Dona" className="h-[45vh] w-[65vw] lg:h-[45vh] lg:w-[20vw] rounded-full object-cover filter hover:brightness-75"/>
                         <div className="text-orange-400 text-center">  
                             <h2 className="font-bold">Brendha Bezerra</h2>
                             <p>Lorem Lorem</p>
@@ -69,7 +69,7 @@ export default function About() {
                     </div>
 
                     <div className="block">
-                        <img src={ph} alt="Dona" className="h-[45vh] w-[65vw] lg:h-[45vh] lg:w-[20vw] object-cover rounded-full "/>
+                        <img src={ph} alt="Dona" className="h-[45vh] w-[65vw] lg:h-[45vh] lg:w-[20vw] object-cover rounded-full filter hover:brightness-75"/>
                         <div className="text-orange-400 text-center">  
                             <h2 className="font-bold">Paulo Henrique</h2>
                             <p>Lorem Lorem</p>
