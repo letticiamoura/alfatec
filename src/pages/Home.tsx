@@ -14,11 +14,11 @@ export default function Home() {
 
                 <Navbar />
 
-                <video  autoPlay loop muted src={alfatec} className="h-[85vh] object-cover filter brightness-75 w-full rounded-bl-[60vw]"></video>
+                <video  autoPlay loop muted src={alfatec} className="h-[90vh] object-cover filter brightness-75 w-full rounded-bl-[60vw] md:rounded-none"></video>
 
-                <h2 className="p-3 borde w-[80vw] text-center backdrop-blur-sm text-white  text-3xl font-extrabold shadow-2xl rounded-xl shadow-white/50 absolute font-sedan left-[12%] top-[35%]">Venha conhecer a melhor escola técnica do Ceará</h2>
+                <h2 className="p-3 borde w-[80vw] text-center backdrop-blur-sm text-white  text-3xl font-extrabold shadow-2xl rounded-xl shadow-white/50 absolute font-sedan left-[12%] top-[35%] md:left-[30%] md:w-[40vw]">Venha conhecer a melhor escola técnica do Ceará</h2>
 
-                <a href="#about" className="border text-center text-white rounded-xl p-2 w-36 absolute left-[34%] top-[55%] md:top-[45%] md:left-[44%]">Conhecer</a>
+                <a href="#about" className="border text-center text-white rounded-xl p-2 w-36 absolute left-[34%] top-[55%] md:top-[55%] md:left-[44%]">Conhecer</a>
 
             </div>
             
