@@ -1,3 +1,4 @@
+import Footer from "./layout/Footer";
 import Home from "./pages/Home";
 
 function App() {
@@ -7,6 +8,8 @@ function App() {
     <div>
 
       <Home />
+
+      <Footer />
 
     </div>
 
