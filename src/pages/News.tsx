@@ -17,17 +17,17 @@ export default function News() {
                 <div className="pt-10">
 
                     <div className="flex flex-col md:flex-row justify-around gap-8">
+     
+                    <div className="p-3 lg:h-[25vh] w-full md:w-[50vw] rounded-2xl bg-orange-400 shadow-black/30 shadow-lg">
+                            <h1 className="text-white text-2xl lg:text-xl font-bold p-4">Sorteio do mês</h1>
+                            <p className="text-orange-200 text-xl lg:text-lg pl-4">Pague em dia e concorra a prêmios todos os mês</p>
+                        </div>
 
                         <div className="p-3 w-full lg:h-[25vh]  md:w-[50vw] rounded-2xl bg-orange-400 shadow-black/30 shadow-lg">
                             <h1 className="text-white text-2xl lg:text-xl font-bold p-4">Promoção Amigo da Onça</h1>
                             <p className="text-orange-200 text-xl lg:text-lg pl-4">Indique um amigo e ganhe R$50,00</p>
                         </div>
 
-                        <div className="p-3 lg:h-[25vh] w-full md:w-[50vw] rounded-2xl bg-orange-400 shadow-black/30 shadow-lg">
-                            <h1 className="text-white text-2xl lg:text-xl font-bold p-4">Sorteio do mês</h1>
-                            <p className="text-orange-200 text-xl lg:text-lg pl-4">Pague em dia e concorra a um prêmio</p>
-                        </div>
-                    
                     </div>
 
                     <div className="p-8">

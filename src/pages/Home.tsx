@@ -2,6 +2,7 @@ import alfatec from "../assets/alf1.gif";
 
 import Navbar from "../layout/Navbar";
 import About from "./About";
+import Contact from "./Contact";
 import News from "./News";
 
 export default function Home() {
@@ -25,6 +26,8 @@ export default function Home() {
             <About />
 
             <News />
+
+            <Contact />
 
         </div>
     )
