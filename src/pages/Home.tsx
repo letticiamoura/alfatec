@@ -14,7 +14,7 @@ export default function Home() {
 
                 <Navbar />
 
-                <video  autoPlay loop muted src={alfatec} className="h-[85vh] object-cover filter brightness-75 w-full rounded-bl-[50vw]"></video>
+                <video  autoPlay loop muted src={alfatec} className="h-[85vh] object-cover filter brightness-75 w-full rounded-bl-[60vw]"></video>
 
                 <h2 className="p-3 borde w-[80vw] text-center backdrop-blur-sm text-white  text-3xl font-extrabold shadow-2xl rounded-xl shadow-white/50 absolute font-sedan left-[12%] top-[35%]">Venha conhecer a melhor escola técnica do Ceará</h2>
 

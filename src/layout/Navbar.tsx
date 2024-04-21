@@ -16,7 +16,7 @@ export default function Navbar() {
             <img src={hum} alt="Menu" onClick={handleOpen} className="h-[8vh] absolute left-5"/>
 
             {open &&
-            <h1 className="text-5xl text-center text-orange-500 font-serif font-extrabold">Alfatec</h1>}
+            <h1 className="text-5xl text-center text-orange-500 font-serif font-extrabold absolute left-32">Alfatec</h1>}
 
             <nav className="hidden lg:block">
                 <ul className="flex justify-around items-center">
