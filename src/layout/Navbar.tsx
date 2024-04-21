@@ -11,15 +11,18 @@ export default function Navbar() {
     }
 
     return(
-        <header className="p-10 h-24 z-50 absolute left-[1px] flex justify-around items-center">
+        <header className="p-10 h-24 z-50 absolute left-[1px] lg:left-[50%] flex justify-around lg:items-center">
 
-            <img src={hum} alt="Menu" onClick={handleOpen} className="h-[8vh] absolute left-5"/>
+            <div className="lg:hidden">
+                <img src={hum} alt="Menu" onClick={handleOpen} className="h-[8vh] absolute left-5"/>
 
-            {open &&
-            <h1 className="text-5xl text-center text-orange-500 font-serif font-extrabold absolute left-32">Alfatec</h1>}
+                {open &&
+                <h1 className="text-5xl text-center text-orange-500 font-serif font-extrabold absolute left-32">Alfatec</h1>}
+            </div>
+
 
             <nav className="hidden lg:block">
-                <ul className="flex justify-around items-center">
+                <ul className="flex justify-around items-end">
                     <li className="text-2xl mr-10 text-white">
                         <a href="#home">Inicio</a>
                     </li>
