@@ -6,7 +6,7 @@ import About from "./pages/About";
 
 export default function App() {
   return (
-      <BrowserRouter>
+      <BrowserRouter basename="/alfatec">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/cursos" element={<Courses />} />
