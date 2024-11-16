@@ -46,10 +46,10 @@ export default function Home() {
             <section>
                 <Courses />
             </section>
-            <section className="">
+            <section>
                 <About/>
             </section>
-            <section className="">
+            <section className="pb-20">
                 <Contact/>
             </section>
         </Layout>
