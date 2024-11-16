@@ -5,7 +5,11 @@ export default {
     "./src/**/*.tsx",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'enfer': 'url("./assets/enfer.jpg")'
+      }
+    },
   },
   plugins: [],
 }
