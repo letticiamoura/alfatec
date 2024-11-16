@@ -4,9 +4,9 @@ export default function Contact() {
     return (
         <section className="pt-10">
             
-            <form className="w-3/4 max-w-2xl mx-auto p-6 bg-white rounded-lg shadow-xl shadow-black">
+            <form className="w-3/4 max-w-2xl mx-auto p-6 bg-white rounded-lg shadow-xl shadow-black/50">
                 <div className="flex flex-col-reverse justify-center items-center mb-8">
-                    <h2 className="text-4xl text-orange-500 font-serif font-bold">Entre em contato</h2>
+                    <h2 className="text-3xl text-orange-500 font-serif font-bold">Entre em contato</h2>
                     <img src={msg} alt="Gif msg" className="h-16 object-cover rotate-12 ml-4" />
                 </div>
                 <div className="mb-4">
