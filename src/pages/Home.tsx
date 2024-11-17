@@ -17,6 +17,8 @@ import Courses from "./Courses";
 import About from "./About";
 import Contact from "./Contact";
 
+import borda from "../assets/borda-branca.svg";
+
 export default function Home() {
     const students = [
         { id: 1, img: a1, title: "Alunos 1" },
@@ -50,6 +52,8 @@ export default function Home() {
                 <About/>
             </section>
             <section className="pb-20">
+                <img src={borda} alt="Borda Laranja"/>
+                <img src={borda} alt="Borda Laranja" className="rotate-180" />
                 <Contact/>
             </section>
         </Layout>
