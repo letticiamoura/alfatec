@@ -2,7 +2,7 @@ import msg from "../assets/falar.gif";
 
 export default function Contact() {
     return (
-        <section className="pt-10">
+        <section className="pt-10 bg-zinc-100">
             
             <form className="w-3/4 max-w-2xl mx-auto p-6 bg-white rounded-lg shadow-xl shadow-black/50">
                 <div className="flex flex-col-reverse justify-center items-center mb-8">

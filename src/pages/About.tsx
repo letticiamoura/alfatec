@@ -8,7 +8,7 @@ import ph from "../assets/phh.jpg";
 
 export default function About() {
     return (
-        <section className="px-5 pt-10 bg-zinc-50">
+        <section className="px-5 pt-10 bg-zinc-100">
             
             <h1 className="text-4xl font-bold text-orange-500 text-center">
                 Rede de Ensino <br />
