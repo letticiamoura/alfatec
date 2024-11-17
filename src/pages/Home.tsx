@@ -27,7 +27,7 @@ export default function Home() {
     ];
     return (
         <Layout>
-            <section className="bg-zinc-100">
+            <section className="pt-20 bg-zinc-100">
                 <Swiper
                     slidesPerView={1}
                     modules={[Navigation, Pagination, EffectFade]}
