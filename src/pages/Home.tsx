@@ -52,8 +52,8 @@ export default function Home() {
                 <About/>
             </section>
             <section className="pb-20">
-                <img src={borda} alt="Borda Laranja"/>
-                <img src={borda} alt="Borda Laranja" className="rotate-180" />
+                <img src={borda} alt="Borda Laranja" className="md:hidden"/>
+                <img src={borda} alt="Borda Laranja" className="rotate-180 md:hidden" />
                 <Contact/>
             </section>
         </Layout>
