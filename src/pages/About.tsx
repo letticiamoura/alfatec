@@ -7,79 +7,97 @@ import brendha from "../assets/brendha.jpg";
 import ph from "../assets/phh.jpg";
 
 export default function About() {
-    return(
+    return (
         <section className="px-5 pt-10 bg-zinc-50">
-            <h1 className="text-3xl font-bold text-orange-500">Rede de Ensino <br />
-                <span className="text-4xl font-extrabold">Alfatec</span>
-            </h1>
             
-            <div>
+            <h1 className="text-4xl font-bold text-orange-500 text-center">
+                Rede de Ensino <br />
+                <span className="text-5xl font-extrabold">Alfatec</span>
+            </h1>
 
-            <div className="pt-5">
+            <div className="pt-5 text-center">
+                <p className="text-lg lg:w-[70vw] lg:m-auto lg:text-xl">
+                    Somos uma renomada rede de ensino especializada em capacitar profissionais para atender às demandas do mercado de trabalho atual. Oferecemos uma variedade de cursos técnicos e profissionalizantes para garantir que nossos alunos estejam preparados para enfrentar os desafios e se destacarem em suas carreiras.
+                </p>
+            </div>
 
-                <h2 className="text-lg lg:w-[70vw] lg:text-center lg:m-auto lg:text-xl">Somos uma renomada rede de ensino especializada em capacitar profissionais para atender às demandas do mercado de trabalho atual. Oferecemos uma variedade de cursos técnicos e profissionalizantes para garantir que nossos alunos estejam preparados para enfrentar os desafios e se destacarem em suas carreiras.</h2>
+            <div className="pt-10 grid gap-5 md:grid-cols-3">
 
-            <div className="pt-5 flex flex-col md:flex-row md:justify-center gap-5">
-    
-                <div className="transform hover:scale-105 ease-in-out p-5 border shadow-xl bg-orange-500 rounded-tl-[50px] rounded-br-[50px] lg:rounded-xl md:w-[27vw] lg:w-[22vw] text-white">
-                    <img src={valores} alt="Valores" className="h-[10vh] m-auto"/>
-                    <h2 className="text-2xl font-bold text-center">Valores</h2>
-                    <li className="text-md w-[80vw]">Honestidade</li>
-                    <li className="text-md">Respeito</li>
-                    <li className="text-md">Compromisso</li>
-                    <li className="text-md">Ética</li>
+                <div className="transform hover:scale-105 ease-in-out p-5 border shadow-xl bg-orange-500 rounded-tl-[50px] rounded-br-[50px] text-white text-center">
+                    <img src={valores} alt="Valores" className="h-[10vh] mx-auto" />
+                    <h2 className="text-2xl font-bold mt-3">Valores</h2>
+                    <ul className="text-md space-y-1">
+                        <li>Honestidade</li>
+                        <li>Respeito</li>
+                        <li>Compromisso</li>
+                        <li>Ética</li>
+                    </ul>
                 </div>
 
-                <div className="transform hover:scale-105 ease-in-out p-5 border bg-orange-500 text-white rounded-tl-[50px] rounded-br-[50px] lg:rounded-xl  lg:w-[22vw]  shadow-xl">
-                    <img src={visao} alt="Visão" className="h-[10vh] m-auto"/>
-                    <h2 className="text-2xl font-bold text-center">Visão</h2>
-                    <p  className="text-ld">Ser a melhor Escola Técnica do Brasil reconhecida como o melhor método de ensino e a mais eficiente na realização dos sonhos de nossos alunos.</p>
+                <div className="transform hover:scale-105 ease-in-out p-5 border shadow-xl bg-orange-500 rounded-tl-[50px] rounded-br-[50px] text-white text-center">
+                    <img src={visao} alt="Visão" className="h-[10vh] mx-auto" />
+                    <h2 className="text-2xl font-bold mt-3">Visão</h2>
+                    <p className="mt-2">
+                        Ser a melhor Escola Técnica do Brasil reconhecida como o melhor método de ensino e a mais eficiente na realização dos sonhos de nossos alunos.
+                    </p>
                 </div>
-                <div className="transform hover:scale-105 ease-in-out p-5 border bg-orange-500 text-white rounded-tl-[50px] rounded-br-[50px] lg:rounded-xl  lg:w-[22vw]  shadow-xl">
-                    <img src={missao} alt="Missão" className="h-[10vh] m-auto"/>
-                    <h2 className="text-2xl font-bold text-center">Missão</h2>
-                    <p  className="text-md">Proporcionar aos alunos ensino de excelência visando desenvolver o potencial de cada educando e formando cidadãos úteis á sociedade e á Pátria.</p>
+
+                <div className="transform hover:scale-105 ease-in-out p-5 border shadow-xl bg-orange-500 rounded-tl-[50px] rounded-br-[50px] text-white text-center">
+                    <img src={missao} alt="Missão" className="h-[10vh] mx-auto" />
+                    <h2 className="text-2xl font-bold mt-3">Missão</h2>
+                    <p className="mt-2">
+                        Proporcionar aos alunos ensino de excelência visando desenvolver o potencial de cada educando e formando cidadãos úteis à sociedade e à Pátria.
+                    </p>
                 </div>
             </div>
 
-            </div>
-
-            <div>
-                <h2 className="p-5 text-2xl sm:text-4xl font-bold text-orange-500">Conheça nossos <br /> 
-                    <span className="text-orange-400 text-3xl sm:text-5xl font-extrabold">colaboradores</span>
+            <div className="pt-10">
+                <h2 className="text-3xl sm:text-4xl font-bold text-orange-500 text-center">
+                    Conheça nossos <br />
+                    <span className="text-orange-400 text-4xl sm:text-5xl font-extrabold">colaboradores</span>
                 </h2>
 
-                <div className="flex justify-center gap-5">
-
-                    <div>
-                        <img src={diretora} alt="Diretora" className="h-[45vh] w-[150%] lg:h-[45vh] lg:w-[20vw] rounded-full object-cover filter hover:brightness-75"/>
-                        <div className="text-orange-400 text-center">  
-                            <h2 className="font-bold">Isabele Ferreira</h2>
-                            <p>Diretora</p>
-                        </div>    
+                <div className="py-10 flex justify-center items-center gap-5 md:gap-10">
+                    {/* Diretora */}
+                    <div className="text-center">
+                        <img
+                            src={diretora}
+                            alt="Diretora"
+                            className="h-[40vh] w-[40vh] rounded-full object-cover filter hover:brightness-75 mx-auto"
+                        />
+                        <div className="text-orange-400 mt-3">
+                            <h3 className="font-bold text-lg">Isabele Ferreira</h3>
+                            <p className="text-md">Diretora</p>
+                        </div>
                     </div>
 
-                    <div>
-                        <img src={brendha} alt="Dona" className="h-[45vh] w-[65vw] lg:h-[45vh] lg:w-[20vw] rounded-full object-cover filter hover:brightness-75"/>
-                        <div className="text-orange-400 text-center">  
-                            <h2 className="font-bold">Brendha Bezerra</h2>
-                            <p>Lorem Lorem</p>
-                        </div>    
+                    {/* Brendha */}
+                    <div className="text-center">
+                        <img
+                            src={brendha}
+                            alt="Colaboradora"
+                            className="h-[40vh] w-[40vh] rounded-full object-cover filter hover:brightness-75 mx-auto"
+                        />
+                        <div className="text-orange-400 mt-3">
+                            <h3 className="font-bold text-lg">Brendha Bezerra</h3>
+                            <p className="text-md">Lorem Lorem</p>
+                        </div>
                     </div>
 
-                    <div className="block">
-                        <img src={ph} alt="Dona" className="h-[45vh] w-[65vw] lg:h-[45vh] lg:w-[20vw] object-cover rounded-full filter hover:brightness-75"/>
-                        <div className="text-orange-400 text-center">  
-                            <h2 className="font-bold">Paulo Henrique</h2>
-                            <p>Lorem Lorem</p>
-                        </div>    
+                    {/* Paulo Henrique */}
+                    <div className="text-center">
+                        <img
+                            src={ph}
+                            alt="Colaborador"
+                            className="h-[40vh] w-[40vh] rounded-full object-cover filter hover:brightness-75 mx-auto"
+                        />
+                        <div className="text-orange-400 mt-3">
+                            <h3 className="font-bold text-lg">Paulo Henrique</h3>
+                            <p className="text-md">Lorem Lorem</p>
+                        </div>
                     </div>
-
                 </div>
-
-            </div>
-
             </div>
         </section>
-    )
+    );
 }
