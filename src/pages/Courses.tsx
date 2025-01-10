@@ -3,19 +3,15 @@ import ele from "../assets/ele.jpg";
 import adm from "../assets/adm.jpg";
 import log from "../assets/log1.jpg";
 import sdt from "../assets/sdt.jpg";
-import sau from "../assets/saude.jpg";
-import sec from "../assets/sec.png"
 
 import CardCourse from "../components/CardCourse";
 
 export default function Courses() {
     const courses = [
-        { id: 1, img: adm, name: "Administração", link: "/adm" },
-        { id: 2, img: ele, name: "Eletrotécnica", link: "/elet" },
-        { id: 3, img: enf, name: "Enfermagem", link: "/enf" },
-        { id: 4, img: log, name: "Logística", link: "/log" },
-        { id: 5, img: sec, name: "Secretária Escolar", link: "/sec" },
-        { id: 6, img: sau, name: "Saúde Bucal", link: "/sau" },
+        { id: 1, img: adm, name: "Administração", link: "/administracao" },
+        { id: 2, img: ele, name: "Eletrotécnica", link: "/eletrotecnica" },
+        { id: 3, img: enf, name: "Enfermagem", link: "/enfermagem" },
+        { id: 4, img: log, name: "Logística", link: "/logistica" },
         { id: 7, img: sdt, name: "Segurança do Trabalho", link: "/sdt" },
     ];
 

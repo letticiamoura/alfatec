@@ -1,16 +1,11 @@
-import Layout from "../../components/Layout";
+import CourseLayout from "../../components/CourseLayout";
 
 import enf from "../../assets/enf.jpg";
 
-export default function Enfer() {
+export default function Enf() {
     return(
-        <Layout>
-            <div>
-                <h1>Técnico em Enfermagem</h1>
-                <div>
-                    <img src={enf} alt="Enfermagem" />
-                </div>
-            </div>
-        </Layout>
+        <div className="h-screen">
+            <CourseLayout img={enf} title="Enfermagem" />
+        </div>
     )
 }

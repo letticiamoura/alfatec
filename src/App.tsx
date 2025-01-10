@@ -4,6 +4,10 @@ import Courses from "./pages/Courses";
 import Enfer from "./pages/courses/Enfer";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Ele from "./pages/courses/Ele";
+import Log from "./pages/courses/Log";
+import Sdt from "./pages/courses/Sdt";
+import Adm from "./pages/courses/Adm";
 
 export default function App() {
   return (
@@ -13,7 +17,11 @@ export default function App() {
             <Route path="/cursos" element={<Courses />} />
             <Route path="/sobre" element={<About />} />
             <Route path="/contato" element={<Contact />} />
-            <Route path="/enf" element={<Enfer />} />
+            <Route path="/enfermagem" element={<Enfer />} />
+            <Route path="/eletrotecnica" element={<Ele />} />
+            <Route path="/logistica" element={<Log />} />
+            <Route path="/sdt" element={<Sdt />} />
+            <Route path="/administracao" element={<Adm />} />
           </Routes>
       </BrowserRouter>
   );
