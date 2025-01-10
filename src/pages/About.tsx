@@ -27,10 +27,7 @@ export default function About() {
                     <img src={valores} alt="Valores" className="h-[10vh] mx-auto" />
                     <h2 className="text-2xl font-bold mt-3">Valores</h2>
                     <ul className="text-md space-y-1">
-                        <li>Honestidade</li>
-                        <li>Respeito</li>
-                        <li>Compromisso</li>
-                        <li>Ética</li>
+                        <p className="mt-2">Honestidade, respeito, compromisso e ética são pilares essenciais para relações confiáveis, justas e harmoniosas.</p>
                     </ul>
                 </div>
 
