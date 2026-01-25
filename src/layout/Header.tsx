@@ -19,8 +19,6 @@ const navItems: NavItem[] = [
 
 export default function Header() {
 
-  const [open, setOpen] = useState(false);
-
   const navigate = useNavigate();
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
