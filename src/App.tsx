@@ -1,22 +1,21 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Layout from "./layout/Layout"
-import Home from "./pages/home/Home"
-import NotFound from "./pages/NotFound"
+import { HashRouter, Route, Routes } from "react-router-dom";
+import Layout from "./layout/Layout";
+import NotFound from "./pages/NotFound";
+import Inicio from "./pages/home/Inicio";
 
 function App() {
-
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
-        <Route path="/" Component={Layout}>
-          <Route index path="/" element={<Home/>} />
-          <Route path="/cursos" element={<NotFound/>} />
-          <Route path="/sobre" element={<NotFound/>} />
-          <Route path="/*" element={<NotFound/>} />
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Inicio />} />
+          <Route path="cursos" element={<NotFound />} />
+          <Route path="sobre" element={<NotFound />} />
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
-    </BrowserRouter>
-  )
+    </HashRouter>
+  );
 }
 
-export default App
+export default App;
