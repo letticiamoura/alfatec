@@ -7,7 +7,7 @@ export default function Home() {
 
     return (
         <div
-            className="pt-6 md:pt-12 min-h-screen
+            className="pt-2 md:pt-10 min-h-screen
             bg-[linear-gradient(125deg,rgba(126,34,206,0.7),rgba(249,115,22,0.7)),url('/src/assets/hero-classroom.jpg')]
             bg-cover bg-center bg-no-repeat
             flex flex-col justify-center

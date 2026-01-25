@@ -27,7 +27,7 @@ export default function CallToAction() {
           </button>
 
           <a
-            href="https://wa.me/85992043834"
+            href="http://api.whatsapp.com/send?phone=5585991815887&text=Quero%20fazer%20minha%20matr%C3%ADcula."
             target="_blank"
             rel="noopener noreferrer"
             className="

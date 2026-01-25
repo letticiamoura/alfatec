@@ -8,8 +8,8 @@ import { FaClock } from "react-icons/fa";
 
 export default function Footer() {
   const redesSociais = [
-    { id: 1, icon: <FaWhatsapp />, link: "#" },
-    { id: 2, icon: <FaInstagram />, link: "#" },
+    { id: 1, icon: <FaWhatsapp />, link: "http://api.whatsapp.com/send?phone=5585991815887&text=Quero%20fazer%20minha%20matr%C3%ADcula." },
+    { id: 2, icon: <FaInstagram />, link: "https://www.instagram.com/alfatecoficial/" },
     { id: 3, icon: <FaTiktok />, link: "#" },
   ];
 
@@ -29,7 +29,7 @@ export default function Footer() {
 
           <p className="text-white/70 max-w-md">
             Transformando vidas através da educação profissional de qualidade há
-            mais de 15 anos.
+            mais de 4 anos.
           </p>
 
           <div className="flex items-center gap-4">
@@ -80,14 +80,14 @@ export default function Footer() {
             <FaClock className="mt-1" />
             <p>
               Segunda a Sexta <br />
-              08:00 às 21:00
+              08:00 às 20:00
             </p>
           </div>
 
           <div className="flex items-start gap-3 text-white/70">
             <FaClock className="mt-1" />
             <p>
-              Sábado <br />
+              Sábado e Domingo <br />
               08:00 às 12:00
             </p>
           </div>
