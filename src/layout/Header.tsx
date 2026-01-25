@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink, Link, useNavigate } from "react-router-dom";
 
 import logo from "../assets/logo_alfa.png";
 
@@ -19,7 +19,13 @@ const navItems: NavItem[] = [
 
 export default function Header() {
 
+  const [open, setOpen] = useState(false);
+
+  const navigate = useNavigate();
+
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const handleSendContact = () => navigate('/entrar-em-contato');
 
   return (
     <header className="fixed top-0 z-50 w-full border-b bg-white backdrop-blur-md border-gray-200 shadow-sm">
@@ -52,7 +58,7 @@ export default function Header() {
         </nav>
 
         <Link
-          to="/contato"
+          to="/entrar-em-contato"
           className="hidden items-center gap-2 rounded-xl bg-orange-600 px-6 py-3 font-medium text-white shadow-md transition-all hover:bg-orange-500 hover:shadow-lg hover:scale-[1.03] md:flex"
         >
           <BsChatDotsFill className="text-lg" />
@@ -87,16 +93,18 @@ export default function Header() {
             ))}
 
             <Link
-              to="/contato"
-              onClick={() => setMobileMenuOpen(false)}
-              className="mt-2 flex items-center justify-center gap-2 rounded-xl bg-orange-600 py-4 text-lg font-semibold text-white hover:bg-orange-500"
+              to="/entrar-em-contato"
+              onClick={handleSendContact}
+              className="hidden md:flex items-center gap-2 rounded-xl bg-orange-600 px-6 py-3 font-medium text-white shadow-md transition-all hover:bg-orange-500 hover:shadow-lg hover:scale-[1.03]"
             >
-              <BsChatDotsFill />
+              <BsChatDotsFill className="text-lg" />
               Fale Conosco
             </Link>
+
           </nav>
         </div>
       )}
+
     </header>
   );
 }
